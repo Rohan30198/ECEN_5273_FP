@@ -23,14 +23,22 @@ Before executing the ping requests, we can start the tcpdump to monitor the traf
 ```
 Execute this for all other switches as well.  
 On the console where the topology configuration script is executed, execute the following commands to issue a
-ping from host 1 to host 2.
-![h1_ping_h2](./Images/h1-h2.png)
- After implementing the spanning tree we can confirm that the ARP are not being looped in the network.  
- Node s1:
- ![s1_tcpdump](./Images/tcpdump.png)
- Node s2:
- ![s2_tcpdump](./Images/tcpdump-s2.png)
-Node s3:
+ping from host 1 to host 2.  
+
+![h1_ping_h2](./Images/h1-h2.png)  
+
+ After implementing the spanning tree we can confirm that the ARP are not being looped in the network. 
+
+ Node s1:  
+
+ ![s1_tcpdump](./Images/tcpdump.png)  
+
+ Node s2:  
+
+ ![s2_tcpdump](./Images/tcpdump-s2.png)  
+
+Node s3:  
+
 ![s3_tcpdump](./Images/tcpdump-s3.png)
 
 ## Conclusion
